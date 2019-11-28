@@ -54,6 +54,10 @@ if( substr( $hash, 0, $_POST['difficulty'] ) != $startString ){
 	die( "ERROR Invalid solution." );
 }
 
+// prevent replay attack
+unset( $_SESSION['pow']['rand'] );
+
+// save valid proof of work solution for customer
 $_SESSION['pow']['solved'] = true;
 
 echo "ack\n";
