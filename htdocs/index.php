@@ -16,7 +16,6 @@
 			<li>timestamp - a current iso-8601 timestamp in UTC</li>
 			<li>rand - the random string put by the server and stored to <code>$_SESSION['pow']['rand']</code></li>
 			<li>difficulty - the difficulty set by the server and stored to <code>$_SESSION['pow']['difficulty']</code></li>
-difficulty - 
 
 		</ol>
 
