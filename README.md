@@ -8,13 +8,13 @@ This repository is proof of concept that implement proof of work system in PHP a
 
 ![Server web deny content for customer request without submit proof of work solution](screenshots/0.png?raw=true "/pow-walled-content.php")
 
-### Customer solve proof of work at 207 hash/sec
+### Customer solve proof of work at 43480 hash/sec
 
-![Customer solve proof of work at 207 hash/sec](screenshots/1.png?raw=true "/solve-pow.php")
+![Customer solve proof of work at 43480 hash/sec](screenshots/1.png?raw=true "/solve-pow.php")
 
 ### Customer submit proof of work solution and server web accept
 
-[Customer submit proof of work solution and server web accept](screenshots/2.png?raw=true "/solve-pow.php")
+![Customer submit proof of work solution and server web accept](screenshots/2.png?raw=true "/solve-pow.php")
 
 ### Server web show content for customer with submit proof of work solution
 
